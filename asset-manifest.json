@@ -1,16 +1,35 @@
 {
   "files": {
-    "main.css": "/sonification-explorer/static/css/main.f855e6bc.css",
-    "main.js": "/sonification-explorer/static/js/main.f1383083.js",
-    "static/js/453.02131657.chunk.js": "/sonification-explorer/static/js/453.02131657.chunk.js",
-    "static/media/logo.svg": "/sonification-explorer/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/sonification-explorer/static/css/main.1968bca6.css",
+    "main.js": "/sonification-explorer/static/js/main.41b5ead4.js",
+    "static/js/453.d57a9ad8.chunk.js": "/sonification-explorer/static/js/453.d57a9ad8.chunk.js",
+    "static/media/piano_C3.wav": "/sonification-explorer/static/media/piano_C3.f601a410855b91cd04c6.wav",
+    "static/media/piano_E3.wav": "/sonification-explorer/static/media/piano_E3.973a8d70b7d7612a0af1.wav",
+    "static/media/piano_D3.wav": "/sonification-explorer/static/media/piano_D3.d1bd21b5985447da5d86.wav",
+    "static/media/piano_F3.wav": "/sonification-explorer/static/media/piano_F3.4fb1c7757d7634c947e4.wav",
+    "static/media/piano_A3.wav": "/sonification-explorer/static/media/piano_A3.1ff73b7c1fe0d51e7731.wav",
+    "static/media/piano_G3.wav": "/sonification-explorer/static/media/piano_G3.5d864e1ddb25353dfd8b.wav",
+    "static/media/D2.wav": "/sonification-explorer/static/media/D2.02bac9705d0b5dc3008d.wav",
+    "static/media/A\u0000#4.wav": "/sonification-explorer/static/media/A#4.6aa4d2967a517e40f3bc.wav",
+    "static/media/C2.wav": "/sonification-explorer/static/media/C2.ac8ff489fcf9b066e062.wav",
+    "static/media/F\u0000#2.wav": "/sonification-explorer/static/media/F#2.e9d1a4a90f895b58b8f9.wav",
+    "static/media/C4.wav": "/sonification-explorer/static/media/C4.6c0fbd758a7aaea4ab2e.wav",
+    "static/media/C3.wav": "/sonification-explorer/static/media/C3.9e741a72d613438344d5.wav",
+    "static/media/D3.wav": "/sonification-explorer/static/media/D3.c4cc19fa487eefac049f.wav",
+    "static/media/piano_B3.wav": "/sonification-explorer/static/media/piano_B3.27fa285e195746f7c809.wav",
+    "static/media/A2.wav": "/sonification-explorer/static/media/A2.09f4343788937f8e9353.wav",
+    "static/media/A\u0000#3.wav": "/sonification-explorer/static/media/A#3.b24b26b250dfa45725bc.wav",
+    "static/media/F\u0000#4.wav": "/sonification-explorer/static/media/F#4.8eb3c26e958f776da034.wav",
+    "static/media/F\u0000#3.wav": "/sonification-explorer/static/media/F#3.a702d0bd68798efb5cfa.wav",
+    "static/media/D4.wav": "/sonification-explorer/static/media/D4.bb2f1dd18c92f49974b4.wav",
+    "static/media/snare_drum.wav": "/sonification-explorer/static/media/snare_drum.ec2ac5cad2d5615a8a8c.wav",
     "index.html": "/sonification-explorer/index.html",
-    "main.f855e6bc.css.map": "/sonification-explorer/static/css/main.f855e6bc.css.map",
-    "main.f1383083.js.map": "/sonification-explorer/static/js/main.f1383083.js.map",
-    "453.02131657.chunk.js.map": "/sonification-explorer/static/js/453.02131657.chunk.js.map"
+    "main.1968bca6.css.map": "/sonification-explorer/static/css/main.1968bca6.css.map",
+    "main.41b5ead4.js.map": "/sonification-explorer/static/js/main.41b5ead4.js.map",
+    "453.d57a9ad8.chunk.js.map": "/sonification-explorer/static/js/453.d57a9ad8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.f1383083.js"
+    "static/css/main.1968bca6.css",
+    "static/js/main.41b5ead4.js"
   ]
 }
