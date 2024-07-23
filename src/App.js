@@ -1,25 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Page } from "@geist-ui/core";
+import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
+import TabMBSSimulator from "./components/TabMBSSimulator";
+import TabEarconSimulator from "./components/TabEarconSimulator";
+import ExpansiveMSBSimulator from "./components/ExpansiveMBSSimulator";
+import ExpansiveEarconSimulator from "./components/ExpansiveEarconSimulator";
 
-function App() {
+import "react-tabs/style/react-tabs.css";
+import "./App.css";
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Page>
+      <h1>Sonification Explorer</h1>
+      <Tabs>
+        <TabList>
+          <Tab>Tab Earcon - Sonification</Tab>
+          <Tab>Tab MBS - Sonification</Tab>
+          <Tab>Expansive Elements Earcon - Sonification</Tab>
+          <Tab>Expansive Elements MBS - Sonification</Tab>
+        </TabList>
+        <TabPanel>
+          <TabEarconSimulator />
+        </TabPanel>
+        <TabPanel>
+          <TabMBSSimulator />
+        </TabPanel>
+        <TabPanel>
+          <ExpansiveEarconSimulator />
+        </TabPanel>
+        <TabPanel>
+          <ExpansiveMSBSimulator />
+        </TabPanel>
+      </Tabs>
+    </Page>
   );
-}
+};
 
 export default App;
