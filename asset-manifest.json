@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sonification-explorer/static/css/main.53770db1.css",
-    "main.js": "/sonification-explorer/static/js/main.01a9a4d7.js",
+    "main.js": "/sonification-explorer/static/js/main.e393d9df.js",
     "static/js/453.d57a9ad8.chunk.js": "/sonification-explorer/static/js/453.d57a9ad8.chunk.js",
     "static/media/piano_C3.wav": "/sonification-explorer/static/media/piano_C3.f601a410855b91cd04c6.wav",
     "static/media/piano_E3.wav": "/sonification-explorer/static/media/piano_E3.973a8d70b7d7612a0af1.wav",
@@ -25,11 +25,11 @@
     "static/media/snare_drum.wav": "/sonification-explorer/static/media/snare_drum.ec2ac5cad2d5615a8a8c.wav",
     "index.html": "/sonification-explorer/index.html",
     "main.53770db1.css.map": "/sonification-explorer/static/css/main.53770db1.css.map",
-    "main.01a9a4d7.js.map": "/sonification-explorer/static/js/main.01a9a4d7.js.map",
+    "main.e393d9df.js.map": "/sonification-explorer/static/js/main.e393d9df.js.map",
     "453.d57a9ad8.chunk.js.map": "/sonification-explorer/static/js/453.d57a9ad8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.53770db1.css",
-    "static/js/main.01a9a4d7.js"
+    "static/js/main.e393d9df.js"
   ]
 }
