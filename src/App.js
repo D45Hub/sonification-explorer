@@ -10,10 +10,27 @@ import "react-tabs/style/react-tabs.css";
 import "./App.css";
 
 const App = () => {
+  const queryString = window.location.search;
+  const urlParams = new URLSearchParams(queryString);
+  var defaultTab = 0;
+
+  if (urlParams.has("variant")) {
+    const param = urlParams.get("variant");
+
+    // Tab Earcon covered by default tab selection.
+    if (param === "tab_mbs") {
+      defaultTab = 1;
+    } else if (param === "expansive_earcon") {
+      defaultTab = 2;
+    } else if (param === "expansive_mbs") {
+      defaultTab = 3;
+    }
+  }
+
   return (
     <Page>
       <h1>Sonification Explorer</h1>
-      <Tabs>
+      <Tabs defaultIndex={defaultTab}>
         <TabList>
           <Tab>Tab Earcon - Sonification</Tab>
           <Tab>Tab MBS - Sonification</Tab>
