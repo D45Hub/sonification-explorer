@@ -1,0 +1,11 @@
+.interactive-container {
+    width: 400px;
+    height: 600px;
+    border: 2px solid #ccc;
+    overflow: auto;
+    margin: 20px auto;
+    position: relative;
+    padding: 10px;
+    background-color: #f9f9f9;
+  }
+  
