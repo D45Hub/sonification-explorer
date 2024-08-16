@@ -74,7 +74,7 @@ const TabMBSSimulator = () => {
       <Text>
         Sonification example as employed by the study. Modified in a simulated
         container and making it work with mouse-controls on desktop browsers.
-        Sonification only triggers on mouse hovering.
+        Sonification only triggers on mouse hovering. Volume should be set to about 25%.
       </Text>
       <InteractiveContainer>
         <Text>
